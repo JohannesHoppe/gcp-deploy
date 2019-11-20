@@ -4,6 +4,10 @@ import {
   SchematicContext
 } from '@angular-devkit/schematics';
 import { experimental, JsonParseMode, parseJson } from '@angular-devkit/core';
+import fs from 'fs';
+import path from 'path';
+
+const APP_YAML = 'app.yaml';
 
 function getWorkspace(
   host: Tree
@@ -80,6 +84,16 @@ export const ngAdd = (options: NgAddOptions) => (
     builder: '@wagnermaciel/gcp-deploy:deploy',
     options: {}
   };
+
+  if (!tree.exists(APP_YAML)) {
+    try {
+      const absolutePath = path.resolve(__dirname, APP_YAML);
+      const content = fs.readFileSync(absolutePath);
+      tree.create(APP_YAML, content);
+    } catch (e) {
+      throw new SchematicsException(`Could not create app.yaml: ` + e.message);
+    }
+  }
 
   tree.overwrite(workspacePath, JSON.stringify(workspace, null, 2));
   return tree;

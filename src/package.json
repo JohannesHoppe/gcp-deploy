@@ -4,7 +4,7 @@
   "description": "Deployment from the Angular CLI to Google Cloud Platform.",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && json2ts deploy/schema.json > deploy/schema.d.ts && tsc && copyfiles README.md builders.json collection.json ng-add-schema.json package.json gcp-deploy deploy/schema.json dist",
+    "build": "rimraf dist && json2ts deploy/schema.json > deploy/schema.d.ts && tsc && copyfiles app.yaml README.md builders.json collection.json ng-add-schema.json package.json gcp-deploy deploy/schema.json dist",
     "test": "jest"
   },
   "schematics": "./collection.json",
