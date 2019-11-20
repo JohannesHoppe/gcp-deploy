@@ -1,4 +1,4 @@
-# @angular-schule/ngx-deploy-starter: README for contributors
+# @wagnermaciel/gcp-deploy: README for contributors
 
 ## How to start <a name="start"></a>
 
@@ -39,13 +39,13 @@ Follow the instructions for [checking and updating the Angular CLI version](#ang
 
 ### 2. npm link
 
-Use the following instructions to make `@angular-schule/ngx-deploy-starter` available locally via `npm link`.
+Use the following instructions to make `@wagnermaciel/gcp-deploy` available locally via `npm link`.
 
 1. Clone the project
 
    ```sh
-   git clone https://github.com/angular-schule/ngx-deploy-starter.git
-   cd ngx-deploy-starter
+   git clone https://github.com/angular-schule/gcp-deploy.git
+   cd gcp-deploy
    ```
 
 2. Install the dependencies
@@ -73,7 +73,7 @@ Read more about the `link` feature in the [official NPM documentation](https://d
 
 ### 3. Adding to an Angular project -- ng add
 
-Once you have completed the previous steps to `npm link` the local copy of `@angular-schule/ngx-deploy-starter`, follow these steps to use it in a local Angular project.
+Once you have completed the previous steps to `npm link` the local copy of `@wagnermaciel/gcp-deploy`, follow these steps to use it in a local Angular project.
 
 1. Enter the project directory
 
@@ -81,16 +81,16 @@ Once you have completed the previous steps to `npm link` the local copy of `@ang
    cd your-angular-project
    ```
 
-2. Add the local version of `@angular-schule/ngx-deploy-starter`.
+2. Add the local version of `@wagnermaciel/gcp-deploy`.
 
    ```sh
-   npm link @angular-schule/ngx-deploy-starter
+   npm link @wagnermaciel/gcp-deploy
    ```
 
 3. Now execute the `ng-add` schematic.
 
    ```sh
-   ng add @angular-schule/ngx-deploy-starter
+   ng add @wagnermaciel/gcp-deploy
    ```
 
 4. You can now deploy your angular app to GitHub pages.
@@ -114,7 +114,7 @@ Testing is done with [Jest](https://jestjs.io/).
 To run the tests:
 
 ```sh
-cd ngx-deploy-starter/src
+cd gcp-deploy/src
 npm test
 ```
 
@@ -123,7 +123,7 @@ npm test
 ## Publish to NPM
 
 ```
-cd ngx-deploy-starter/src
+cd gcp-deploy/src
 npm run build
 npm run test
 npm publish dist --access public

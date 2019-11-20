@@ -169,7 +169,7 @@ const initialAngularJson = `{
           }
         },
         "deploy": {
-          "builder": "@angular-schule/ngx-deploy-starter:deploy",
+          "builder": "@wagnermaciel/gcp-deploy:deploy",
           "options": {}
         }
       }
@@ -201,7 +201,7 @@ const overwriteAngularJson = `{
           }
         },
         "deploy": {
-          "builder": "@angular-schule/ngx-deploy-starter:deploy",
+          "builder": "@wagnermaciel/gcp-deploy:deploy",
           "options": {}
         }
       }
@@ -216,7 +216,7 @@ const overwriteAngularJson = `{
           }
         },
         "deploy": {
-          "builder": "@angular-schule/ngx-deploy-starter:deploy",
+          "builder": "@wagnermaciel/gcp-deploy:deploy",
           "options": {}
         }
       }

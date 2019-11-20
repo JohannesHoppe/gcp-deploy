@@ -1,20 +1,20 @@
-# @angular-schule/ngx-deploy-starter
+# @wagnermaciel/gcp-deploy
 
 **Deploy your Angular app to the file system directly from the Angular CLI! 🚀**
 
-> **Warning:**  
+> **Warning:**
 > This is a sample project that helps you to implement your own deployment builder (`ng deploy`) for the Angular CLI.
 > The actual "deployment" is only a simple copy to another folder in the file system.
 >
 > **Learn more at
-> https://github.com/angular-schule/ngx-deploy-starter**
+> https://github.com/angular-schule/gcp-deploy**
 
 ## Usage
 
-Add `@angular-schule/ngx-deploy-starter` to your project.
+Add `@wagnermaciel/gcp-deploy` to your project.
 
 ```bash
-ng add @angular-schule/ngx-deploy-starter
+ng add @wagnermaciel/gcp-deploy
 ```
 
 Deploy your project to the file system.
@@ -40,7 +40,7 @@ Each named target is accompanied by a configuration of option defaults for that 
 Same as `ng build --configuration=XXX`.
 This command has no effect if the option `--no-build` option is active.
 
-> **This is a proposal from [RFC #1](https://github.com/angular-schule/ngx-deploy-starter/issues/1).**
+> **This is a proposal from [RFC #1](https://github.com/angular-schule/gcp-deploy/issues/1).**
 
 #### --no-build
 
@@ -54,7 +54,7 @@ Skip build process during deployment.
 This can be used when you are sure that you haven't changed anything and want to deploy with the latest artifact.
 This command causes the `--configuration` setting to have no effect.
 
-> **This is a proposal from [RFC #1](https://github.com/angular-schule/ngx-deploy-starter/issues/1).**
+> **This is a proposal from [RFC #1](https://github.com/angular-schule/gcp-deploy/issues/1).**
 
 #### --target-dir
 
