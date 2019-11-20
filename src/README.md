@@ -1,6 +1,6 @@
 # @wagnermaciel/gcp-deploy
 
-**Deploy your Angular app to the file system directly from the Angular CLI! 🚀**
+**Deploy your Angular app to Google Cloud Platform directly from the Angular CLI! 🚀**
 
 > **Warning:**
 > This is a sample project that helps you to implement your own deployment builder (`ng deploy`) for the Angular CLI.
@@ -17,7 +17,7 @@ Add `@wagnermaciel/gcp-deploy` to your project.
 ng add @wagnermaciel/gcp-deploy
 ```
 
-Deploy your project to the file system.
+Deploy your project to Google Cloud Platform.
 
 ```
 ng deploy [options]

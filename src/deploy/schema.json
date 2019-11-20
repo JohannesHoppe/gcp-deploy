@@ -1,7 +1,7 @@
 {
   "id": "Schema",
   "title": "schema",
-  "description": "Deployment of Angular CLI applications to the file system",
+  "description": "Deployment of Angular CLI applications to Google Cloud Platform",
   "properties": {
     "baseHref": {
       "type": "string",

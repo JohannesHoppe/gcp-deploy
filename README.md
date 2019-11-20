@@ -59,7 +59,7 @@ We appreciate your [feedback](https://github.com/angular-schule/gcp-deploy/issue
 1. fork this repository
 2. adjust the `package.json`
 3. search and replace for the string `@wagnermaciel/gcp-deploy` and `gcp-deploy` and choose your own name.
-4. search and replace for the string `to the file system` and name your deploy target.
+4. search and replace for the string `to Google Cloud Platform` and name your deploy target.
 5. add your deployment code to `src/engine/engine.ts`, take care of the tests
 6. follow the instructions from the [contributors README](docs/README_contributors.md) for build, test and publishing.
 
