@@ -1,7 +1,7 @@
 {
-  "name": "@angular-schule/ngx-deploy-starter",
-  "version": "0.0.2",
-  "description": "Deployment from the Angular CLI to the file system. This is a sample project that helps you to implement your own deployment builder (`ng deploy`) for the Angular CLI.",
+  "name": "@wagnermaciel/gcp-deploy",
+  "version": "0.0.1",
+  "description": "Deployment from the Angular CLI to Google Cloud Platform.",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && json2ts deploy/schema.json > deploy/schema.d.ts && tsc && copyfiles README.md builders.json collection.json ng-add-schema.json package.json ngx-deploy-starter deploy/schema.json dist",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular-schule/ngx-deploy-starter.git"
+    "url": "git+https://github.com/wagnermaciel/ngx-deploy-starter.git"
   },
   "keywords": [
     "angular",
@@ -22,20 +22,17 @@
     "angular-cli",
     "deploy",
     "ng deploy",
-    "ng-deploy"
+    "ng-deploy",
+    "gcp",
+    "google-cloud",
+    "google cloud"
   ],
   "author": {
-    "name": "Johannes Hoppe",
-    "email": "johannes.hoppe@haushoppe-its.de"
+    "name": "Wagner Maciel",
+    "email": "wagnermaciel@google.com"
   },
-  "contributors": [
-    "Minko Gechev <mgechev@gmail.com>"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/angular-schule/ngx-deploy-starter/issues"
-  },
-  "homepage": "https://github.com/angular-schule/ngx-deploy-starter/#readme",
+  "homepage": "https://github.com/wagnermaciel/ngx-deploy-starter#readme",
   "devDependencies": {
     "@angular-devkit/architect": "^0.803.0",
     "@angular-devkit/core": "^8.3.0",
